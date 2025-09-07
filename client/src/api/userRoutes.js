@@ -1,4 +1,4 @@
-const USER_API_BASE_URL = process.env.USER_API_BASE_URL || "http://localhost:4000/users";
+const USER_API_BASE_URL = process.env.REACT_APP_USER_API_BASE_URL || "http://localhost:4000/users";
 
 const API = {
   REGISTER_USER_URL: `${USER_API_BASE_URL}/register`,
